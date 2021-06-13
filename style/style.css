@@ -1,6 +1,18 @@
 header {
-    background: black 
-  }
+  background: black; 
+  width: 940px;
+}
+
+.logo {
+  width: 30%;
+  float: left;
+}  
+
+.box {
+  position: relative;
+	width: 940px;
+	margin: 0 0 20px; 
+}
 
 body {
   background: black;
