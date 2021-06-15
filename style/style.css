@@ -12,10 +12,10 @@
 }
 
 .inner-header {
-  width: auto;
+  width: 85%;
   height: 100%;
   display: block;
-  margin: 0 0 0 40px;
+  margin: 0px auto;
 }
 
 .logo-container {
@@ -32,6 +32,33 @@ h1 img {
   width: 100%;
   display: table-cell;
   vertical-align: middle;
+}
+
+.navigation {
+  float: right;
+  height: 100%;
+}
+
+.navigation a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+
+.navigation a:last-child {
+  padding-right: 0;
+}
+
+.navigation a li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
 }
 
 body {
