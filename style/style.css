@@ -28,6 +28,13 @@ h1 img {
   width: 78%;
 }
 
+h2 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 15px 0;
+}
+
 .logo-container h1 {
   width: 100%;
   display: table-cell;
@@ -70,11 +77,11 @@ body {
   opacity: 0.8;
 }  
 
-.sobre {
+.about {
   margin: 40px 40px;
 }
 
-.sobre p {
+.about p {
   color: white;
   text-align: justify;
   font-family: 'Montserrat', sans-serif;
