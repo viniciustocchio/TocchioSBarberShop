@@ -67,6 +67,15 @@ body {
 
 .image-banner {
   width: 100%;
-  opacity: 0.45;
+  opacity: 0.8;
 }  
 
+.sobre {
+  margin: 40px 40px;
+}
+
+.sobre p {
+  color: white;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+}
