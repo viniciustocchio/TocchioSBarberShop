@@ -62,38 +62,60 @@ h1 img {
 }
 
 body {
-  background: black;
+  background: #2C2C34;
 }  
 
 h2 {
-  color: white;
+  color: #F4F3EE;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   text-align: justify;
-  margin: 15px 0;
+  font-weight: 300; 
 }
 
 .image-banner {
   width: 100%;
   opacity: 0.8;
-  margin: 0 0 30px;
+  box-shadow: 0 3px 5px rgba(12, 11, 11, 0.534);
 }  
 
-.main h2 {
-  margin: 0 30px 10px 30px;
+main h2 {
+  margin: 0 0 15px 30px;
 }
 
-.main p {
-  color: white;
+main p {
+  color: #F4F3EE;
   text-align: justify;
   font-family: 'Montserrat', sans-serif;
-  margin: 0px 30px 20px 30px;
+  margin: 0px 30px 0 30px;
+}
+
+.about {
+  margin: 150px 100px;
 }
 
 .video {
   margin: 20px 0;
+  box-shadow: 0 3px 5px rgba(12, 11, 11, 0.534);
 }
 
-.map {
-  margin: 20px 0;
+.location {
+  margin: 150px 100px;
+}
+
+footer {
+  background: #494850;
+  width: 100%;
+  display: block;
+}
+
+.container-footer {
+  height: 100%;
+  padding: 20px;
+}
+
+.logo-footer {
+  width: 20%;
+  display: table;
+  margin: auto;
 }
