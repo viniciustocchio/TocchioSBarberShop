@@ -63,6 +63,7 @@ h1 img {
 
 body {
   background: #2C2C34;
+  background-attachment: fixed;
 }  
 
 h2 {
@@ -76,7 +77,7 @@ h2 {
 .image-banner {
   width: 100%;
   opacity: 0.8;
-  box-shadow: 0 3px 5px rgba(12, 11, 11, 0.534);
+  box-shadow: 0 3px 5px rgba(24, 22, 22, 0.534);
 }  
 
 main h2 {
@@ -104,7 +105,7 @@ main p {
 }
 
 footer {
-  background: #494850;
+  background-image: linear-gradient(to bottom, #2C2C34, #494850);
   width: 100%;
   display: block;
 }
