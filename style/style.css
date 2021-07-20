@@ -55,9 +55,9 @@ h1 img {
   vertical-align: middle;
   height: 100%;
   color: white;
-  font-size: 20px;
+  font-size: 1.1em;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
+  font-weight: 120;
   text-transform: uppercase;
 }
 
@@ -97,11 +97,104 @@ main p {
 
 .video {
   margin: 20px 0;
-  box-shadow: 0 3px 5px rgba(12, 11, 11, 0.534);
+  box-shadow: 0 3px 5px rgba(24, 22, 22, 0.534);
+}
+
+.services {
+  margin: 150px 100px;
+}
+
+.hair-container {
+  position: relative;
+}
+
+.text-hair {
+  font-family: 'Montserrat' sans-serif;
+  font-size: 1.5em;
+  font-weight: 100;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.493);
+  color: white;
+  padding: 10px 0;
+}
+
+.haircut-photo {
+  display: block;
+  margin: auto;
+  width: 100%;
+  filter: grayscale(100%);
+  transition: .2s ease-in-out;
+}
+
+.haircut-photo:hover {
+  filter: grayscale(0%);
+}
+
+.beard-container {
+  position: relative;
+}
+
+.text-beard {
+  font-family: 'Montserrat' sans-serif;
+  font-size: 1.5em;
+  font-weight: 100;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.493);
+  color: white;
+  padding: 10px 0;
+}
+
+.beardtrim-photo {
+  display: block;
+  margin: auto;
+  width: 100%;
+  filter: grayscale(100%);
+  transition: .2s ease-in-out;
+}
+
+.full-container {
+  position: relative;
+}
+
+.text-full {
+  font-family: 'Montserrat' sans-serif;
+  font-size: 1.5em;
+  font-weight: 100;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.493);
+  color: white;
+  padding: 10px 0;
+}
+
+.beardtrim-photo:hover {
+  filter: grayscale(0%);
+}
+
+.fullpack-photo {
+  display: block;
+  margin: auto;
+  width: 100%;
+  filter: grayscale(100%);
+  transition: .2s ease-in-out;
+}
+
+.fullpack-photo:hover {
+  filter: grayscale(0%);
+
 }
 
 .location {
   margin: 150px 100px;
+}
+
+.map {
+  box-shadow: 0 3px 5px rgba(24, 22, 22, 0.534);
 }
 
 footer {
