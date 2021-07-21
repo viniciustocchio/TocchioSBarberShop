@@ -92,7 +92,8 @@ main p {
 }
 
 .about {
-  margin: 150px 100px;
+  width: 940px;
+  margin: 150px auto;
 }
 
 .video {
@@ -101,7 +102,8 @@ main p {
 }
 
 .services {
-  margin: 150px 100px;
+  width: 940px;
+  margin: 150px auto;
 }
 
 .hair-container {
@@ -182,19 +184,73 @@ main p {
   width: 100%;
   filter: grayscale(100%);
   transition: .2s ease-in-out;
+  box-shadow: 0 3px 5px rgba(24, 22, 22, 0.534);
 }
 
 .fullpack-photo:hover {
   filter: grayscale(0%);
-
 }
 
 .location {
-  margin: 150px 100px;
+  width: 940px;
+  margin: 150px auto;
 }
 
 .map {
   box-shadow: 0 3px 5px rgba(24, 22, 22, 0.534);
+}
+
+.contact {
+  width: 940px;
+  margin: 150px auto 50px auto;
+}
+
+.main-contact {
+  width: 940px;
+	margin: 0px auto 150px auto;
+}
+
+form {
+  margin: 0px 30px;
+}
+
+form label, form legend {
+	display: block;
+	font-weight: 300;
+	margin: 0 0 10px;
+  font-family: 'Montserrat';
+  color: #F4F3EE;
+}
+
+.standard-input {
+	display: block;
+	margin: 0 0 20px;
+	padding: 12px 8px;
+	width: 50%;
+}
+
+.send {
+  font-family: 'Montserrat';
+	width: 20%;
+	padding: 10px 0;
+	background:#BCB8B1;
+	color: white;
+	font-size: 18px;
+	border: none;
+	border-radius: 3px;
+	transition: 0.2s all;
+	cursor: pointer;
+}
+
+.send:hover {
+	background: #BF0603;
+	transform: scale(1.009);
+}
+
+.barber-pole {
+  width: 38%;
+  float: right;
+  margin-top: 70px;
 }
 
 footer {
