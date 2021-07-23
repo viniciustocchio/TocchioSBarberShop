@@ -2,7 +2,9 @@
 
 # 💈 Tocchio's Barbershop
 
-![GitHub Logo](/images/logo-white-200.png)
+<p align="center">
+  ![GitHub Logo](/images/logo-white-200.png)
+</p>
 
 Welcome to my first HTML and CSS project!!
 
