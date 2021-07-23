@@ -1,4 +1,4 @@
-# Tocchio's barbershop
+# Tocchio's Barbershop 💈
 
 Welcome to my first HTML and CSS project!!
 
