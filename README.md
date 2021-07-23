@@ -1,4 +1,4 @@
-![shield barbershop](https://img.shields.io/badge/viniciustocchio-barbershop-orange)
+![shield barbershop](https://img.shields.io/badge/viniciustocchio-barbershop-orange)(https://github.com/viniciustocchio/tocchios-barbershop)
 
 # 💈 Tocchio's Barbershop
 
