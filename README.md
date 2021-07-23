@@ -2,6 +2,8 @@
 
 # 💈 Tocchio's Barbershop
 
+![GitHub Logo](/images/logo-white-200.png)
+
 Welcome to my first HTML and CSS project!!
 
 The project is a website for a fictitious barbershop that I'm created for learning and practicing HTML and CSS. 
