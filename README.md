@@ -1,4 +1,4 @@
-(https://img.shields.io/badge/viniciustocchio-barbershop-orange)
+[!(https://img.shields.io/badge/viniciustocchio-barbershop-orange)]
 
 # 💈 Tocchio's Barbershop
 
