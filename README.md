@@ -1,6 +1,6 @@
 # 💈 Tocchio's Barbershop
 
-[https://img.shields.io/badge/viniciustocchio-barbershop-orange]
+https://img.shields.io/badge/viniciustocchio-barbershop-orange.svg
 
 Welcome to my first HTML and CSS project!!
 
