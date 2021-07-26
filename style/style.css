@@ -28,14 +28,11 @@ html {
  float: left;
 }
 
-h1 img {
+.logo-container .logo {
   width: 78%;
-}
-
-.logo-container h1 {
-  width: 100%;
   display: table-cell;
   vertical-align: middle;
+  margin: 8px auto;
 }
 
 .navigation {
@@ -43,7 +40,7 @@ h1 img {
   height: 100%;
 }
 
-.navigation a {
+.navigation li {
   height: 100%;
   display: table;
   float: left;
@@ -54,7 +51,7 @@ h1 img {
   padding-right: 0;
 }
 
-.navigation a li {
+.navigation li a {
   display: table-cell;
   vertical-align: middle;
   height: 100%;
@@ -67,7 +64,7 @@ h1 img {
   cursor: pointer;
 }
 
-.navigation a li:hover {
+.navigation li a:hover {
   color: #BF0603;
   transform: scale(1.05);
 }
