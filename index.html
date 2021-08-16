@@ -6,100 +6,110 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Tocchio's Barber Shop</title>
+    <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
   </head>
 
   <body>
-      <a id="top"><div class="header"></a>
-        <div class="inner-header">
-          <div class="logo-container">
-            <img class="logo" src="images/logo-white-200.png">
-          </div>
-          <ul class="navigation">
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#services">Services</a>
-            </li>
-            <li>
-              <a href="#location">Location</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
 
-    <img class="image-banner" src="images/banner.jpg">
+    <a id="top"><div class="header"></a>
+      <div class="header-container">
+        <div class="logo-container">
+          <a href="index.html" target="_self"><img class="logo" src="images/logo-white-200.png"></a>
+        </div>
+
+        <nav class="header-nav">
+            <a class="heander-nav-link" href="#about">About</a>
+            <a class="heander-nav-link" href="#services">Services</a>
+            <a class="heander-nav-link" href="#location">Location</a>
+            <a class="heander-nav-link" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
     
     <main>
-      <a id="about"></a><section class="about"></a>
-        <h2>About</h2>
-        <p>Inspired by old New York barbershops from the 40s, 50s, and 60s, Tocchio's Barbershop focuses on bringing back the male culture lost over the years, in which men met to shave with a razor and cut their hair while they drink, talk and chill.</p>
-        <br>
-        <p>Between warm towels and facial massage, the best creams and foams prepare our clients' faces. Also, our visitors can enjoy the space in our brewery.</p>
-      </section>
 
-      <div class="video" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/86498288?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+      <img class="image-banner" src="images/banner.jpg">
 
-      <a id="services"><section class="services"></a>
-        <h2>Services</h2>
-        <p>Services that go beyond beard, hair and mustache. Our services usually exceed expectations, with trained and updated professionals, highly capable of performing their tasks with excellence.</p>
-      </section>
+      <div class="container">
 
-      <section class="hair-container">
-        <img class="haircut-photo" src="images/hair-cut.jpg" alt="hair cut photo">
-        <div class="text-hair">
-          <p>Haircut - € 17,00</p>
+        <a id="about"></a><section class="information"></a>
+          <h2>About</h2>
+          <p>Inspired by old New York barbershops from the 40s, 50s, and 60s, Tocchio's Barbershop focuses on bringing back the male culture lost over the years, in which men met to shave with a razor and cut their hair while they drink, talk and chill.</p>
+          <br>
+          <p>Between warm towels and facial massage, the best creams and foams prepare our clients' faces. Also, our visitors can enjoy the space in our brewery.</p>
+        </section>
+
+        <div class="video" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/86498288?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+        <a id="services"><section class="information"></a>
+          <h2>Services</h2>
+          <p>Services that go beyond beard, hair and mustache. Our services usually exceed expectations, with trained and updated professionals, highly capable of performing their tasks with excellence.</p>
+        </section>
+
+        <div class="cuts-container">
+          <section class="photo-container">
+            <img class="photo" src="images/hair-cut.jpg" alt="hair cut photo">
+            <div class="text">
+              <p>Haircut - € 17,00</p>
+            </div>
+          </section>
+          <section class="photo-container">
+            <img class="photo" src="images/beard-trim.jpg" alt="beard trim photo">
+            <div class="text">
+              <p>Beard trim - € 17,00</p>
+            </div>
+          </section>
+          <section class="photo-container">
+            <img class="photo" src="images/fullpack.jpg" alt="hair style photo">
+            <div class="text">
+              <p>Hair + Beard - € 30,00</p>
+            </div>
+          </section>
         </div>
-      </section>
-      <section class="beard-container"> 
-        <img class="beardtrim-photo" src="images/beard-trim.jpg" alt="beard trim photo">
-        <div class="text-beard">
-          <p>Beard trim - € 17,00</p>
+
+        <a id="location"><section class="information"></a>
+          <h2>Where we are</h2>
+          <p>Located at the heart of Munich, Tocchio's Barber Shop is the perfect place to give yourself a break, and to enjoy all the best that the city can offer.</p>
+        </section>
+
+        <section class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.5917052800787!2d11.573259815766557!3d48.1373967591523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e248d37632d%3A0xdead51b35f0e0bb3!2sMarienplatz!5e0!3m2!1spt-BR!2sde!4v1626616620009!5m2!1spt-BR!2sde" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <a id="contact"></a><section class="contact"></a>
+          <h2>Contact</h2>
+          <p>If you have any questions, comments, or suggestions please feel free to reach us out by the formular.</p>
+          <br><br>
+          <p><strong>Opening hours:</strong></p>
+          <p>Tuesday to Saturday 10:00 - 20:00</p>
+          <p>Sunday 10:00 - 18:00</p>
+        </section>
+
+        <div class="container">
+
+          <section class="form-container">
+
+            <form class="contact-form">
+              <label for="namesurname">Name and Surname</label>
+              <input type="text" id="namesurname" class="standard-input" required placeholder="name and surname ">
+              <label for="email">Email</label>
+              <input type="email" id="email" class="standard-input" required placeholder="email@domain.com">
+              <label for="telephone">Telephone</label>
+              <input type="tel" id="telephone" class="standard-input" required placeholder="xxx xxxxxxxx">
+              <label for="message">Message</label>
+              <textarea cols="50" rows="10" id="message" class="standard-input"></textarea>
+              <input type="submit" value="Send" class="send">
+            </form>
+
+            <picture>
+              <source media="(max-width: 800px)" srcset="images/barber-pole-200.png" type="image/png">
+              <img class="barber-pole" src="images/barber-pole-400.png" alt="barber pole">
+            </picture>
+
+          </section>
         </div>
-      </section>
-      <section class="full-container">    
-        <img class="fullpack-photo" src="images/fullpack.jpg" alt="hair style photo">
-        <div class="text-full">
-          <p>Hair + Beard - € 30,00</p>
-        </div>
-      </section>
-
-      <a id="location"><section class="location"></a>
-        <h2>Where we are</h2>
-        <p>Located at the heart of Munich, Tocchio's Barber Shop is the perfect place to give yourself a break, and to enjoy all the best that the city can offer.</p>
-      </section>
-  
-      <section class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.5917052800787!2d11.573259815766557!3d48.1373967591523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e248d37632d%3A0xdead51b35f0e0bb3!2sMarienplatz!5e0!3m2!1spt-BR!2sde!4v1626616620009!5m2!1spt-BR!2sde" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      </section>
-
-      <a id="contact"></a><section class="contact"></a>
-        <h2>Contact</h2>
-        <p>If you have any questions, comments, or suggestions please feel free to reach us out by the formular.</p>
-        <br><br>
-        <p><strong>Opening hours:</strong></p>
-        <p>Tuesday to Saturday 10:00 - 20:00</p>
-        <p>Sunday 10:00 - 18:00</p>
-      </section>
-
-      <section class="main-contact">
-        <form>
-          <img class="barber-pole" src="images/barber-pole.png" alt="barber pole">
-          <label for="namesurname">Name and Surname</label>
-          <input type="text" id="namesurname" class="standard-input" required placeholder="name and surname ">
-          <label for="email">Email</label>
-          <input type="email" id="email" class="standard-input" required placeholder="email@domain.com">
-          <label for="telephone">Telephone</label>
-          <input type="tel" id="telephone" class="standard-input" required placeholder="xxx xxxxxxxx">
-          <label for="message">Message</label>
-          <textarea cols="50" rows="10" id="message" class="standard-input"></textarea>
-          <input type="submit" value="Send" class="send">
-        </form>
-      </section>
+      </div>
     </main>    
 
     <footer>
