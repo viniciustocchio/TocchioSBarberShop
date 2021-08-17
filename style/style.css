@@ -117,7 +117,7 @@ p {
   box-shadow: 0 3px 5px rgba(24, 22, 22, 0.534);
 }
 
-.container .form-container {
+.contact-container .form-container {
   width: 80%;
   margin: 0 auto;
 }
@@ -165,15 +165,12 @@ form label, form legend {
 	transform: scale(1.009);
 }
 
-footer {
+.main-footer {
   background-image: linear-gradient(to bottom, #2C2C34, #494850);
   width: 100%;
   display: block;
-}
-
-.container-footer {
-  height: 100%;
-  padding: 80px;
+  text-align: center;
+  padding: 60px 0;
 }
 
 .logo-footer {
@@ -221,18 +218,61 @@ footer {
     font-size: 0.9em;
   }
 
-  .container .form-container {
+  .contact-container .form-container {
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     margin-top: 50px;
   }
 
-  .form-container .contact-form {
-    width: 100%;
+  .contact-form {
+    width: 80%;
+    margin: 0 auto;
   }
 
   .standard-input {
+    width: 90%;
+    margin: 0px 5px 9px;
+  }
+  
+  form label, form legend {
+    width: 90%;
+    margin: 0px 6px 10px;
+  }
+
+  .send {
+    width: 95%;
+    margin: 20px 5px;
+  }
+
+  .barber-pole {
+    margin-top: 20px;
+  }
+
+  footer {
+    height: 150px;
+  }
+
+  .container-footer {
+    display: flex;
+    padding: 0;
+  }
+
+  .main-footer {
+    background-image: linear-gradient(to bottom, #2C2C34, #494850);
     width: 100%;
-  }  
+    display: block;
+    padding: 20px 0 0 0;
+    margin-top: 30px;
+  }
+
+  .footer-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+
+  .logo-footer {
+    width: 80%;
+  }
 
 }
