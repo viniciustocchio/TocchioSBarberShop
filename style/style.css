@@ -200,6 +200,11 @@ form label, form legend {
     margin: 20px auto
   }
 
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+
   .heander-nav-link {
     text-align: center;
     margin: 15px 0;
@@ -246,6 +251,8 @@ form label, form legend {
 
   .barber-pole {
     margin-top: 20px;
+    width: 100%;
+    height: auto;
   }
 
   footer {
@@ -273,6 +280,7 @@ form label, form legend {
 
   .logo-footer {
     width: 80%;
+    height: auto;
   }
 
 }
