@@ -24,7 +24,7 @@ body {
  display: flex;
 }
 
-.heander-nav-link {
+.heander-nav-link a {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   color: white;
@@ -34,7 +34,7 @@ body {
   margin-left: 25px;
 }
 
-.heander-nav-link:hover {
+.heander-nav-link a:hover {
   color: #BF0603;
   transform: scale(1.05);
 }  
@@ -174,7 +174,7 @@ form label, form legend {
 }
 
 .logo-footer {
-  width: 18%;
+  width: 10%;
   display: table;
   margin: auto;
   transition: 0.5s all;
